@@ -21,7 +21,7 @@ metadata:
   name: nginx
   labels:
     project: expense 
-    component: frontend
+    component: backend
     tier: web 
     version: 1.0.0
 spec:
