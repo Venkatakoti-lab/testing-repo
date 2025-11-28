@@ -4,4 +4,4 @@ metadata:
   name: myconfig
 data:
   course: "python"
-  duration: "10 hours"
+  duration: "15 hours"
