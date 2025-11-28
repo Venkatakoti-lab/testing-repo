@@ -8,3 +8,7 @@ spec:
     component: backend
     tier: web
     purpose: practice
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
