@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myconfig
+data:
+  course: "python"
+  duration: "10 hours"
