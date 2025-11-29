@@ -20,5 +20,6 @@ spec:
         tier: web 
         purpose: practise
     spec:
-    - name: nginx
-      image: nginx
+      containers:
+      - name: nginx
+        image: nginx
