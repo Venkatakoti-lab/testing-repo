@@ -29,7 +29,6 @@ metadata:
 spec:
   type: LoadBalancer 
   selector:
-    matchLabels:
       app: frontend 
       tier: web 
   ports:
