@@ -20,3 +20,20 @@ spec:
       containers:
       - name: nginx
         image: koti0120/demo-deployment:1.0.0
+
+###so we need to access public so that we need a service.
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+spec:
+  type: LoadBalancer 
+  selector:
+    matchLabels:
+      app: frontend 
+      tier: web 
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+    nodePort: 30000
