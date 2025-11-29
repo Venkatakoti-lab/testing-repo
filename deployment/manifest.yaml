@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: koti0120/demo-deployment:1.1.0
+        image: koti0120/demo-deployment:1.0.0
 ---
 ###so we need to access public so that we need a service.
 apiVersion: v1
